@@ -1,0 +1,13 @@
+{
+  "version": "mouth_outline_v2",
+  "center_tolerance_m": 0.003,
+  "yaw_tolerance_deg": 5.0,
+  "tilt_tolerance_deg": 5.0,
+  "outline_tolerance_m": 0.002,
+  "height_tolerance_m": 0.002,
+  "release_height_m": 0.04,
+  "hold_time_sim_s": 1.0,
+  "max_telemetry_gap_s": 0.2,
+  "contour_sample_spacing_m": 0.0005,
+  "reference": "Authored visible lip mesh at target_xy_m, yaw=0, lying on board; 2mm contour allowance."
+}

@@ -1,0 +1,2 @@
+# Optional native image estimator; retain requirements-training.txt NumPy pin.
+opencv-python-headless==4.10.0.84

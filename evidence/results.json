@@ -1,0 +1,49 @@
+{
+  "success_rules": {
+    "version": "mouth_outline_v2",
+    "center_tolerance_m": 0.003,
+    "yaw_tolerance_deg": 5.0,
+    "tilt_tolerance_deg": 5.0,
+    "outline_tolerance_m": 0.002,
+    "height_tolerance_m": 0.002,
+    "release_height_m": 0.04,
+    "hold_time_sim_s": 1.0,
+    "max_telemetry_gap_s": 0.2,
+    "contour_sample_spacing_m": 0.0005,
+    "reference": "Authored visible lip mesh at target_xy_m, yaw=0, lying on board; 2mm contour allowance.",
+    "config_sha256": "3a28e5cce65ee8b96172b17ffc36cd98d65b6d4a4b9aea5396ae17b5097a469d",
+    "contour_sha256": "e32596ba0945854555ff03b6c37d984bf134e4d459b962451168120839009581"
+  },
+  "checkpoint_sha256": "3344448235d454a9be81abe749bc6876c26aecc2abc7465a9434049340043a3d",
+  "preprocessing_sha256": "d4cf078d24e36aab8935c13b01e770b44156d93b52a4bf42b00011af8cba01fd",
+  "floor_projection": false,
+  "max_sim_s": 600.0,
+  "policy_action_repeat": 1,
+  "shared_joint_path": true,
+  "shared_path_projection": true,
+  "planned_seeds": [
+    2026102308,
+    2026102305
+  ],
+  "completed": 2,
+  "successes": 0,
+  "success_rate": 0.0,
+  "episodes": [
+    {
+      "seed": 2026102308,
+      "success": false,
+      "final_error_m": 0.010088723194897642,
+      "reason": "time_limit",
+      "steps": 5761
+    },
+    {
+      "seed": 2026102305,
+      "success": false,
+      "final_error_m": 0.005757669223598225,
+      "reason": "time_limit",
+      "steps": 5749
+    }
+  ],
+  "provenance": "Curated extract of locally retained evaluation summary; raw images and observations are not included.",
+  "evaluation_scope": "Two previously used exploratory seeds; not unseen generalization."
+}
