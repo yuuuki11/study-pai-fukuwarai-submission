@@ -1,0 +1,12 @@
+{
+  "version": "supplementary_placement_10mm20deg_v1",
+  "center_mm": 10,
+  "yaw_deg": 20,
+  "tilt_deg": 5,
+  "height_mm": 2,
+  "release_mm": 40,
+  "hold_sim_s": 1,
+  "max_gap_sim_s": 0.2,
+  "outline_gate": false,
+  "interpretation": "Supplementary coarse placement, not strict-v2 contour completion. Selected after viewing earlier trials, before the new 100-start cohort."
+}

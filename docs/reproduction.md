@@ -51,3 +51,5 @@ git submodule update --init --recursive
 ## ローカル検証
 
 Python構文、shell構文、選択した単体テストを確認しています。シミュレータの新規環境構築からの再実行は未検証です。`python -m unittest discover -s tests` の全件にはROS・講義ソース等の環境依存があります。
+
+追加100試行のrun_fukuwarai_placement100.pyは、ローカルの事前登録JSONと重み・実行環境を必要とします。collect_expert_demo.pyは評価のExpert/kinematics基底クラスとして同梱しています。旧教師を新評価の代わりに使う意味ではありません。
