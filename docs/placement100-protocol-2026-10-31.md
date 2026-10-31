@@ -15,3 +15,9 @@
 ## 実行管理の修正
 
 最初の試行は約130秒でEndpoint tracking timeoutとなり、記録品質は合格だった。既存batch集計がsteps/elapsed未記載のtimeoutをインフラ障害扱いしたためcampaignが停止。モデル・採点・物理・実行器は変更せず、実行管理のみを修正し、この記録を失敗として保持して2試行目以降へ進める。元pre_registration.jsonと元resultは不変。差分はpre_registration_amended.jsonに記録。
+
+## 画像通信の復旧と未開始試行の再開
+
+5試行目は画像0枚・モデル動作開始前にTelemetry unavailableで停止した。関節/clockの受信が継続する一方、CompressedImage受信0枚を実測。シーン・物理・モデル・実行器は変更せず、既存ros_gz_image bridgeだけを再起動し、65枚/6.4sim秒の受信を確認した。元seed_2026110104一式はinfra_attempts/seed_2026110104_attempt1へ保存し、同じseedを再開。完了4件は再実行しない。凍結hashの一致とアーム/キャンペーン排他を確認した。復旧は最大2回の開始前インフラ障害に限定し、モデル動作後の失敗は再試行しない。
+
+監視は通知のみから、同一条件で可能な通信復旧と同一campaignの再開まで行う運用へ変更した。通常進捗は通知しない。復旧不能時には試した対処と停止理由を通知する。復旧詳細はdata配下recovery_20261031.jsonに保存。
