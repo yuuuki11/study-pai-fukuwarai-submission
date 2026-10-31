@@ -10,7 +10,7 @@ import subprocess
 import sys
 import time
 from score_fukuwarai_placement import score_episode
-from fukuwarai_trial_outcome import countable_model_stop
+from fukuwarai_trial_outcome import countable_model_stop, short_model_failure
 from fukuwarai_evaluation_retention import compact_episode,keep_video
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -66,13 +66,20 @@ def main():
                         raise RuntimeError('Expected exactly one raw attempt; inspect before retry')
                     episode=existing[0].parent
                     result=json.loads(existing[0].read_text())
-                    if not result.get('recording_audit',{}).get('quality_pass'):
+                    short_failure=short_model_failure(result)
+                    if not result.get('recording_audit',{}).get('quality_pass') and not short_failure:
                         raise RuntimeError('Recording quality failed; originals retained: '+str(seed))
                     row=score_episode(episode,rules,scene)
-                    if row['samples']<10:
+                    if row['samples']<10 and not short_failure:
                         raise RuntimeError('Insufficient telemetry; preserve trial')
+                    row['recording_quality_pass']=bool(result.get('recording_audit',{}).get('quality_pass'))
+                    row['short_model_failure']=short_failure
+                    if short_failure:
+                        row['placement_success']=False
+                        row['strict_v2_success']=False
+                        row['failure_note']='Model stopped before100 frames; original quality_pass=false; counted as failure without retry.'
                     retain=keep_video(row['placement_success'],row['strict_v2_success'],report['failed_videos'])
-                    row['retention']=compact_episode(episode,output,retain)
+                    row['retention']=compact_episode(episode,output,retain,preserve_raw=short_failure)
                     row['episode']=str(episode.relative_to(output))
                     row['visual_review']='pending; machine scoring only'
                     complete.write_text(json.dumps(row,indent=2)+'\n')

@@ -10,7 +10,7 @@ def keep_video(placement_success, strict_success, failed_video_count, failure_li
     return bool(placement_success or strict_success or failed_video_count < failure_limit)
 
 
-def compact_episode(episode, cohort, video_required, fps=10):
+def compact_episode(episode, cohort, video_required, fps=10, preserve_raw=False):
     episode, cohort = Path(episode).resolve(), Path(cohort).resolve()
     registration = json.loads((cohort/'pre_registration.json').read_text())
     if registration.get('retention',{}).get('delete_new_trial_images_and_rosbag_after_verification') is not True:
@@ -35,7 +35,7 @@ def compact_episode(episode, cohort, video_required, fps=10):
     report=dict(complete=False, video_required=video_required, original_frame_count=len(frames),
                 final_image_source=frames[-1].name,
                 final_image_sha256=hashlib.sha256(final.read_bytes()).hexdigest(),
-                deleted=['images','rosbag'], retained=['final.jpg','result.json','observations.jsonl','frames.jsonl','policy_actions.jsonl','sync_audit.json'])
+                deleted=[] if preserve_raw else ['images','rosbag'], raw_preserved=preserve_raw, retained=['final.jpg','result.json','observations.jsonl','frames.jsonl','policy_actions.jsonl','sync_audit.json'])
     if video_required:
         video=episode/'rollout_1x.mp4'
         subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-framerate',str(fps),
@@ -50,7 +50,7 @@ def compact_episode(episode, cohort, video_required, fps=10):
                       video_sha256=hashlib.sha256(video.read_bytes()).hexdigest(),video_speed='1x simulation time, nominal10Hz')
     marker.write_text(json.dumps(report,indent=2)+'\n')
     for target in targets:
-        if target.exists():shutil.rmtree(target)
+        if target.exists() and not preserve_raw:shutil.rmtree(target)
     report['complete']=True
     marker.write_text(json.dumps(report,indent=2)+'\n')
     return report
