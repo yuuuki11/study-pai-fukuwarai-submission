@@ -7,7 +7,7 @@ CRANE+ V2が上方カメラの画像を見て、口パーツを押して所定�
 ## まず読むもの
 
 1. [理解用ガイド](docs/guide.md)：目的、仕組み、成功と失敗の読み方。
-2. [提出用レポートPDF](report.pdf) / [同じ内容のMarkdown](docs/report.md)。
+2. [提出用レポートPDF（事後評価補足を含む7ページ）](report.pdf) / [同じ内容のMarkdown](docs/report.md)。
 3. [詳細な実験レポート](docs/report-detailed.md)：設定、比較実験、全テスト結果。
 4. [再現手順と限界](docs/reproduction.md)、[出典と自作部分](THIRD_PARTY.md)。
 
@@ -34,3 +34,7 @@ CRANE+ V2が上方カメラの画像を見て、口パーツを押して所定�
 このRepoは公開用に切り出したPrivateの作業版です。元RepoのGit履歴は継承していません。学習済み重み・元画像・データセット・生ログ・動画は同梱しません。したがって、コードだけで報告済みモデルの同一推論を再現することはできません。結果の抜粋とハッシュを[evidence/results.json](evidence/results.json)に示します。独立再採点にはローカル保管の元記録が必要です。
 
 提出動画のURLとOmniCampus用の資料名は、提出時に設定します。GitHubの所有者名はURLに残るため、公開前に提出先の匿名化要件と照合してください。
+
+## 追加の事後評価
+
+[大まかな配置の緩和基準](docs/posthoc-coarse-evaluation.md)では同じ記録が1/2成功。中心15mm・yaw30度へ緩め、輪郭判定を外した別基準です。厳格v2の0/2は変わりません。新規試行や性能改善ではありません。

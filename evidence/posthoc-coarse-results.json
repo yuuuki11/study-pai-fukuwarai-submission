@@ -1,0 +1,60 @@
+{
+  "scope": "Post-hoc coarse placement analysis of the same two exploratory trials, not a new model test. Outline is not a gate. Original strict-v2 score preserved.",
+  "rules": {
+    "center_mm": 15,
+    "yaw_deg": 30,
+    "tilt_deg": 5,
+    "height_mm": 2,
+    "release_mm": 40,
+    "hold_sim_s": 1,
+    "max_gap_sim_s": 0.2,
+    "outline_gate": false
+  },
+  "episodes": [
+    {
+      "seed": 2026102308,
+      "samples": 5962,
+      "strict_v2_success": false,
+      "coarse_posthoc_success": false,
+      "maximum_hold_sim_s": 0.40200000000186265,
+      "first_pass": null,
+      "final": {
+        "center_mm": 10.088723194897643,
+        "yaw_deg": 37.18414820331933,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "observations_sha256": "87ec47b131228be1536a9e0757369f0aaa64d9bf1bcece4c05e97939fc8b11de"
+    },
+    {
+      "seed": 2026102305,
+      "samples": 5962,
+      "strict_v2_success": false,
+      "coarse_posthoc_success": true,
+      "maximum_hold_sim_s": 565.0969999999943,
+      "first_pass": {
+        "sim_s": 78659.53,
+        "center_mm": 12.907677966110557,
+        "yaw_deg": 5.469647074326395,
+        "held_sim_s": 1.0059999999939464
+      },
+      "final": {
+        "center_mm": 5.757669223598225,
+        "yaw_deg": 26.87050234745496,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "observations_sha256": "50f8218fcfd532c6064d4795d600cd05fad5b51f2de4b3fe28dea28ceb989819"
+    }
+  ]
+}
