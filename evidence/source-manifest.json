@@ -106,11 +106,13 @@
     "tests/test_fukuwarai_warmstart.py": "8ab8cbf5651c4649644a88cc109b63e29dc0cb46c26a4a74694373e5ec6392b2",
     "worlds/fukuwarai.sdf": "977bbdf0b3c6bfc4aba61c2394b190b5e351dcb5659c67c961282eb8614e8e68",
     "scripts/collect_expert_demo.py": "821abe79715d11bbaea3fedbe756f567361b9d9fe7b2abfa81ff263cf8483ca2",
-    "scripts/run_fukuwarai_placement100.py": "e8496073ac46e2c96c9aa1513148aa2dd4a124c1f9cd264b62684a07b7a2a2ff",
+    "scripts/run_fukuwarai_placement100.py": "6a212fcb5e45b7c03dd6c56f48fa41c927eacf40b100be3a2b74308aa7753bf2",
     "scripts/fukuwarai_evaluation_retention.py": "51a3e043ce3d8e5a22f5d24cea1066e55003800cf73386ab407a06aea932da0f",
     "scripts/score_fukuwarai_placement.py": "68ccaa0886907322270781a56e15b9b8c654dc94ceb797d95e391ab888c87e25",
     "config/fukuwarai_placement_10mm20deg.json": "295c6ddba412f8f52f81766e15e8eb7384e6f57388280bf367cb69f4c3e219e3",
     "tests/test_fukuwarai_placement.py": "cd58e9ea2de6380bacaf33483d03531b249c05fee5373beaa1372885f4e22e22",
-    "tests/test_fukuwarai_evaluation_retention.py": "1074da8e90ecb54ed4cfae6ce0ed8dc3d44c6de869ae79e96343a44c685c2bf4"
+    "tests/test_fukuwarai_evaluation_retention.py": "1074da8e90ecb54ed4cfae6ce0ed8dc3d44c6de869ae79e96343a44c685c2bf4",
+    "scripts/fukuwarai_trial_outcome.py": "64eb90042d5044917e960e9be9bb44cfb863f519e8c836dc7bbf58125fcdb036",
+    "tests/test_fukuwarai_trial_outcome.py": "0a249634da9bca3866c65525d2ccafb71424f391b4e4fa3ac7a9b4cfbabc0c1d"
   }
 }

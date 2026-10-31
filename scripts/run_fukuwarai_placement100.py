@@ -10,6 +10,7 @@ import subprocess
 import sys
 import time
 from score_fukuwarai_placement import score_episode
+from fukuwarai_trial_outcome import countable_model_stop
 from fukuwarai_evaluation_retention import compact_episode,keep_video
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -25,7 +26,9 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output',type=Path,required=True)
     args=p.parse_args();output=args.output.resolve()
-    registration=json.loads((output/'pre_registration.json').read_text())
+    registration_path=output/'pre_registration_amended.json'
+    if not registration_path.exists():registration_path=output/'pre_registration.json'
+    registration=json.loads(registration_path.read_text())
     rules=json.loads((ROOT/registration['primary_supplementary_rules']).read_text())
     scene=json.loads((ROOT/'config/fukuwarai.json').read_text())
     # One campaign process, plus existing in-container per-trial expert lock.
@@ -55,8 +58,10 @@ def main():
                             '--endpoint-tracking-gate','--max-sim-s','600','--seeds',str(seed)]
                         report.update(active_seed=seed,started_at_unix=time.time());write_status(output,report)
                         with (trial/'runner.log').open('a') as log:
-                            subprocess.run(command,cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,check=True)
+                            outcome=subprocess.run(command,cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,check=False)
                         existing=list(trial.glob('*/result.json'))
+                        if outcome.returncode and not (len(existing)==1 and countable_model_stop(json.loads(existing[0].read_text()))):
+                            raise RuntimeError('Infrastructure failure; inspect retained raw attempt: '+str(seed))
                     if len(existing)!=1:
                         raise RuntimeError('Expected exactly one raw attempt; inspect before retry')
                     episode=existing[0].parent

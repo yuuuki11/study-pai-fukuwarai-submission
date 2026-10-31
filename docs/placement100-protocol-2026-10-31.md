@@ -11,3 +11,7 @@
 事前登録：data/evaluation/placement100_10mm20deg_20261031/pre_registration.json。学習済み重み、前処理、実行器、全scripts/config/worlds/シーンのSHA256を固定。1campaignだけを起動し、各試行は既存のコンテナ内アームロックで排他。講義ソースはコンテナから復元し、固定データローダーSHA256を照合済み。
 
 動画保持の3テスト、保持時間の3テスト、12フレームの実エンコード・枚数・decode・一時記録削除を確認。実行後の機械採点と親による画像/成功動画の確認を区別し、100件終了後に全件の結果をレポートへ反映する。旧自動改善automationは復活させない。
+
+## 実行管理の修正
+
+最初の試行は約130秒でEndpoint tracking timeoutとなり、記録品質は合格だった。既存batch集計がsteps/elapsed未記載のtimeoutをインフラ障害扱いしたためcampaignが停止。モデル・採点・物理・実行器は変更せず、実行管理のみを修正し、この記録を失敗として保持して2試行目以降へ進める。元pre_registration.jsonと元resultは不変。差分はpre_registration_amended.jsonに記録。
