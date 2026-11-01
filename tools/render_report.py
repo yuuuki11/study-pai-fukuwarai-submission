@@ -10,7 +10,7 @@ from PIL import Image as PILImage
 r=Path(__file__).resolve().parents[1]
 pages=re.split(r'(?m)(?=^# )',(r/'docs/report.md').read_text())
 pages=[p for p in pages if p.strip()]
-pdfmetrics.registerFont(TTFont('Japanese', '/System/Library/Fonts/Supplemental/Arial Unicode.ttf'))
+pdfmetrics.registerFont(TTFont('Japanese', str(r/'tools/fonts/NotoSansJP-Regular.ttf')))
 font='Japanese'
 styles={
 'h1':ParagraphStyle('h1',fontName=font,fontSize=22,leading=31,textColor=colors.HexColor('#142B40'),spaceAfter=18,wordWrap='CJK'),

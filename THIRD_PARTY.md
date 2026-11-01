@@ -18,3 +18,7 @@
 AIコーディング支援を実装・検証・文章整理に使用しました。実験結果は保存記録に基づき、失敗も報告しています。
 
 動画のOP/EDは講座提供の任意素材です。このコードRepoには配布素材・完成動画を含めていません。
+
+## PDF用日本語フォント
+
+Noto Sans JP（Google Fonts / SIL Open Font License 1.1）をPDFに埋め込む。tools/fonts/NotoSansJP-Regular.ttf は公式可変フォントのweight=400を静的化したもの。ライセンスはtools/fonts/OFL.txt。取得元: https://github.com/google/fonts/tree/main/ofl/notosansjp 。
