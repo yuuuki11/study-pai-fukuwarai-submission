@@ -29,16 +29,17 @@ def main():
     registration_path=output/'pre_registration_amended.json'
     if not registration_path.exists():registration_path=output/'pre_registration.json'
     registration=json.loads(registration_path.read_text())
+    seeds=registration['seeds'][:registration.get('trial_limit',len(registration['seeds']))]
     rules=json.loads((ROOT/registration['primary_supplementary_rules']).read_text())
     scene=json.loads((ROOT/'config/fukuwarai.json').read_text())
     # One campaign process, plus existing in-container per-trial expert lock.
     with (output/'campaign.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         reports=[]
-        report=dict(status='running',pid=__import__('os').getpid(),planned=100,completed=0,successes=0,
+        report=dict(status='running',pid=__import__('os').getpid(),planned=len(seeds),completed=0,successes=0,
                     strict_v2_successes=0,failed_videos=0,episodes=reports)
         try:
-            for seed in registration['seeds']:
+            for seed in seeds:
                 for relative,expected in registration['hashes'].items():
                     if hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()!=expected:
                         raise RuntimeError('Frozen file changed: '+relative)

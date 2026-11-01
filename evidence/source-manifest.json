@@ -106,7 +106,7 @@
     "tests/test_fukuwarai_warmstart.py": "8ab8cbf5651c4649644a88cc109b63e29dc0cb46c26a4a74694373e5ec6392b2",
     "worlds/fukuwarai.sdf": "977bbdf0b3c6bfc4aba61c2394b190b5e351dcb5659c67c961282eb8614e8e68",
     "scripts/collect_expert_demo.py": "821abe79715d11bbaea3fedbe756f567361b9d9fe7b2abfa81ff263cf8483ca2",
-    "scripts/run_fukuwarai_placement100.py": "f3cbff83bbc3c3b8b5e971394988c88742e8eca07ce2f03600331c8b900ffc59",
+    "scripts/run_fukuwarai_placement100.py": "bfddc1800efc46c64730e61eb5270d6e170e3febe014fcc95da513409a83de3e",
     "scripts/fukuwarai_evaluation_retention.py": "c039947a83d50fe997bb27a23404bde71009819dd63f66e4d0824d94adadf59e",
     "scripts/score_fukuwarai_placement.py": "68ccaa0886907322270781a56e15b9b8c654dc94ceb797d95e391ab888c87e25",
     "config/fukuwarai_placement_10mm20deg.json": "295c6ddba412f8f52f81766e15e8eb7384e6f57388280bf367cb69f4c3e219e3",
