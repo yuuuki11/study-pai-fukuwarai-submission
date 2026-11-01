@@ -6,7 +6,7 @@
   "supplementary_successes": 15,
   "strict_v2_online_successes": 1,
   "recording_quality_failures": 6,
-  "visual_audit": "pending; user final-image success trial2, failure trial39",
+  "visual_audit": "User accepts trial39 as success; systematic video visual audit not performed",
   "episodes": [
     {
       "seed": 2026110100,
@@ -2535,11 +2535,11 @@
     }
   ],
   "reader_summary": {
-    "during_trial_successes": 15,
     "final_state_successes": 12,
-    "final_state_excluding_user_rejected_trial39": 11,
     "denominator": 50,
+    "success_rate": 0.24,
     "hold_sim_s": 1,
-    "systematic_visual_audit": "not performed"
+    "systematic_visual_audit": "not performed",
+    "user_accepts_trial39": true
   }
 }

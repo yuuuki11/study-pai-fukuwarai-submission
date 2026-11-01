@@ -8,6 +8,15 @@
       "final_state_success": false,
       "evidence": "User reviewed final-state montage and stated: ３９も失敗と考えたい",
       "review_scope": "final image only"
+    },
+    {
+      "trial": 39,
+      "seed": 2026110138,
+      "reviewer": "user",
+      "final_state_success": true,
+      "supersedes": "previous user final-image failure",
+      "evidence": "やっぱ３９も成功でいいや。",
+      "date": "2026-11-01"
     }
   ]
 }

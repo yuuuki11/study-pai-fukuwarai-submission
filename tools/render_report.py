@@ -25,6 +25,12 @@ for n,page in enumerate(pages):
  while i<len(lines):
   l=lines[i]
   if not l.strip(): i+=1;continue
+  if l.startswith('!['):
+   target=re.search(r'\]\(([^)]+)\)',l).group(1)
+   image_path=r/'docs'/target
+   with PILImage.open(image_path) as im: aspect=im.height/im.width
+   story.append(Image(str(image_path),width=495,height=495*aspect))
+   i+=1;continue
   if l.startswith('|'):
    rows=[]
    while i<len(lines) and lines[i].startswith('|'):

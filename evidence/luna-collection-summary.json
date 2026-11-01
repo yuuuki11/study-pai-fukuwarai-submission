@@ -1,0 +1,48 @@
+{
+  "agent_model": "gpt-6-luna",
+  "agent_role": "Operate scripted camera-based teacher collection, inspect results, retain failures, hand over arm; not per-step joint generation",
+  "early_collection": {
+    "new_attempts": 41,
+    "newly_accepted": 30,
+    "new_failed_or_not_accepted": 11,
+    "new_failure_reason_counts": {
+      "No reachable safe approach pose for the camera-detected mouth": 7,
+      "No fresh overhead image arrived after the mouth reset": 2,
+      "Released mouth position was outside the scoring tolerance": 1,
+      "Camera vision could not identify the mouth piece": 1
+    }
+  },
+  "final_teacher_collection": {
+    "accepted_unique_seed_count": 25,
+    "accepted_unique_seeds": [
+      10251,
+      10252,
+      10254,
+      10258,
+      10259,
+      10261,
+      10264,
+      10265,
+      10268,
+      10270,
+      10274,
+      10279,
+      10285,
+      10286,
+      10290,
+      10292,
+      10293,
+      10297,
+      10300,
+      10301,
+      10303,
+      10304,
+      10306,
+      10308,
+      10309
+    ]
+  },
+  "benchmark_source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "benchmark_reference_date": "2026-11-01",
+  "benchmark_notes": "Published model evaluation; not a robotics teacher data generation benchmark; no same-setting model/time/cost comparison in this project."
+}
