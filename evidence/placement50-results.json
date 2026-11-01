@@ -2533,5 +2533,13 @@
       "episode": "seed_2026110149/20261101T024511394267Z",
       "visual_review": "pending; machine scoring only"
     }
-  ]
+  ],
+  "reader_summary": {
+    "during_trial_successes": 15,
+    "final_state_successes": 12,
+    "final_state_excluding_user_rejected_trial39": 11,
+    "denominator": 50,
+    "hold_sim_s": 1,
+    "systematic_visual_audit": "not performed"
+  }
 }

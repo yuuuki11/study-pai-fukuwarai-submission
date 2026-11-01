@@ -1,0 +1,66 @@
+{
+  "final_condition_trials": [
+    {
+      "trial": 2,
+      "seed": 2026110101,
+      "terminal_held_sim_s": 567.2060000000056
+    },
+    {
+      "trial": 7,
+      "seed": 2026110106,
+      "terminal_held_sim_s": 543.7520000000077
+    },
+    {
+      "trial": 14,
+      "seed": 2026110113,
+      "terminal_held_sim_s": 535.6059999999998
+    },
+    {
+      "trial": 23,
+      "seed": 2026110122,
+      "terminal_held_sim_s": 180.6030000000028
+    },
+    {
+      "trial": 24,
+      "seed": 2026110123,
+      "terminal_held_sim_s": 574.012000000017
+    },
+    {
+      "trial": 31,
+      "seed": 2026110130,
+      "terminal_held_sim_s": 514.8910000000033
+    },
+    {
+      "trial": 33,
+      "seed": 2026110132,
+      "terminal_held_sim_s": 579.98199999996
+    },
+    {
+      "trial": 35,
+      "seed": 2026110134,
+      "terminal_held_sim_s": 548.0469999999623
+    },
+    {
+      "trial": 38,
+      "seed": 2026110137,
+      "terminal_held_sim_s": 516.1990000000224
+    },
+    {
+      "trial": 39,
+      "seed": 2026110138,
+      "terminal_held_sim_s": 398.954000000027
+    },
+    {
+      "trial": 46,
+      "seed": 2026110145,
+      "terminal_held_sim_s": 578.4809999999707
+    },
+    {
+      "trial": 50,
+      "seed": 2026110149,
+      "terminal_held_sim_s": 547.5929999999935
+    }
+  ],
+  "final_1second_successes": 12,
+  "method": "Existing scorer unchanged on disk; final hold accumulator exposed only for read-only reanalysis"
+}
