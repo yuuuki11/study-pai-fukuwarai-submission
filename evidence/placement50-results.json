@@ -1,0 +1,2537 @@
+{
+  "description": "All first50 registered trials; machine scoring, not systematic visual audit",
+  "original_planned": 100,
+  "completed": 50,
+  "early_stop": "User requested50 after inspecting interim outcomes",
+  "supplementary_successes": 15,
+  "strict_v2_online_successes": 1,
+  "recording_quality_failures": 6,
+  "visual_audit": "pending; user final-image success trial2, failure trial39",
+  "episodes": [
+    {
+      "seed": 2026110100,
+      "samples": 1293,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 231741.828,
+        "center_mm": 40.695228955592185,
+        "yaw_deg": 2.008165070571884,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "96bd06158b88bd89a28b7e9629a8db45ed4ee110c0fb0d0d7c33ac383fceb36b",
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 1301,
+        "final_image_source": "001300.jpg",
+        "final_image_sha256": "2d82346b4f4cc541963d8a59cebcf1ffb22b547df0114f24050f6e5ed188b426",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 1301,
+        "video_sha256": "0df1c6a2ff4499d53ce9219039acf3fb90787482d5fb0d89b51465242f8dadb7",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110100/20261031T021207052964Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110101,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 567.2060000000056,
+      "first_pass": {
+        "sim_s": 232815.083,
+        "center_mm": 8.971392342962888,
+        "yaw_deg": 14.18834470131229,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 233381.284,
+        "center_mm": 1.2683824189057311,
+        "yaw_deg": 1.5709270455644828,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "b54a209a51b507f25ffe567f1a6e3c819231c6026b5783721726d27951ea0476",
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6001,
+        "final_image_source": "006000.jpg",
+        "final_image_sha256": "407963980c7dba31bfef7870f86107d71a26f65584574a4ef2df7c47edc9cb0f",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6001,
+        "video_sha256": "87390cacc715906100048f2f49f8cab18f61c525a3c5530e03860407e6c45837",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110101/20261031T033606251963Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110102,
+      "samples": 702,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 233472.771,
+        "center_mm": 43.86981535526758,
+        "yaw_deg": 1.3649306592951342,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "17fdc184d380849cf8c4e923b3121aca83ccd037902cddce4e99e6a8056065cc",
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 707,
+        "final_image_source": "000706.jpg",
+        "final_image_sha256": "5477653c31d2fa53ca61bb74bc1e0bb060d3ea33f2e99f4622fe1f4d73c3d956",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 707,
+        "video_sha256": "aa731b8b0540412e202f50802d1731518a6476bebc4990aea76b57d4fa4ad287",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110102/20261031T040042402782Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110103,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 234078.752,
+        "center_mm": 10.394781359260941,
+        "yaw_deg": 35.30175797592665,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "501fc1a6d8c4e08b2bc26a957c74aa78e142a4941cd8e7e5e685af69ed99b55e",
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "a6dc4e819f3323202b11685f6d5783fceac427888a2e4d991e8c0b9adfcb181b",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "f9f033c5ba5ef6c1b36212807a453598e8d850bcc7fd2bd601aadf95742ee63c",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110103/20261031T040357613006Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110104,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 252522.477,
+        "center_mm": 10.580326066634482,
+        "yaw_deg": 31.90196117178455,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "a5ed9691aa9400d40a7352f45143a7b9753c6f9ee3451b009001371a8cda99eb",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "10c45dbf52cc9d081046b378a872b14b072c3fc67fb3f6857c416a86fa85291d",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110104/20261031T130611355078Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110105,
+      "samples": 54,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 252542.89,
+        "center_mm": 38.49690264941361,
+        "yaw_deg": 2.2209227859178933,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "f99e489853024a45d1bdd2e091b902866721506a2e8e730355f166ec18af068a",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 54,
+        "final_image_source": "000053.jpg",
+        "final_image_sha256": "4db623766694bf1fff08d9a6f5cce4ab85df75bdea0a669524016ecef1155893",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110105/20261031T133048775733Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110106,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 543.7520000000077,
+      "first_pass": {
+        "sim_s": 253008.328,
+        "center_mm": 3.9398449524932913,
+        "yaw_deg": 18.217147416969404,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 253551.075,
+        "center_mm": 2.2601152478573083,
+        "yaw_deg": 5.404225287028874,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "c1e79c98e71c05b1c40cf697c60ef77fcb045cfeb752c9995aac105012e312a9",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "5ec484db25c4b7ed013753ae8ab5922c544801464f92f1b051a994fd6d25adcb",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "f904a4f5978047f9e6c2ebdefcb7a59f99e0b3021a70f7f383c1c9af9d20ae2b",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110106/20261031T141258003969Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110107,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 254170.719,
+        "center_mm": 28.52136894499027,
+        "yaw_deg": 54.35231957798281,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "56722155fd0e769a8f8cf679ec033a2fc2aaf24a0defedc4838ef2d02f666231",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "42d971b5be228593e93da40dacc20d0a73516a1e3e4155827fc4ff32304baa86",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110107/20261031T143648604885Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110108,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 254785.415,
+        "center_mm": 13.475126190876187,
+        "yaw_deg": 14.626085178434684,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "a65df378ef7e933bd32fd5b6aceffe9326cdc0d8fc95bf7e3c554bc7927bff1a",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "144ebc57a201a182f1c0765fa5569ffde308d0a3068056744d2853eba5729ac2",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110108/20261031T150149592631Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110109,
+      "samples": 41,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 254802.825,
+        "center_mm": 43.48790417565241,
+        "yaw_deg": 1.2492435095043388,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "0cd3ee503231d711046412fa2ea9bf3f2e61c873454d92014ad3c97b774555df",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 40,
+        "final_image_source": "000039.jpg",
+        "final_image_sha256": "cb8becbfe050d267152134410a508bed042f725f03e5075dd419946de3fab066",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110109/20261031T152434375816Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110110,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 255409.602,
+        "center_mm": 15.342017617615292,
+        "yaw_deg": 39.52417181228909,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "db8d21fb3f33dbc2f336ab9d268fd8f214582ac50d641e7852d3bac52a338fec",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "1bf727b42d01488b42d98d0c41b62eaf322d38670f5b5b489f4e12e1a4c40c52",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110110/20261031T152530388598Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110111,
+      "samples": 2161,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 255640.874,
+        "center_mm": 50.535496502237564,
+        "yaw_deg": 6.19899812797127,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "6e3c6ed7b987e8379352c07e5188bd369d3540f7603beae9b3b10571f24427b0",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 2173,
+        "final_image_source": "002172.jpg",
+        "final_image_sha256": "23f770ade7a817ec5ab485d68db6fba11e5b262856b4df6e7f2254d7c4ddd5f9",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110111/20261031T154817390755Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110112,
+      "samples": 5966,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 256250.573,
+        "center_mm": 38.78759590933784,
+        "yaw_deg": 1.9575767821211323,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "98ff6d97e8f18c2d4811eb94f4bcecef77f56af0c7d81e794c2d6521b948ed52",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "79355cd8d57cab4535a552ae497e9f3dd23ad0852bd55eee2e74f3b442c30ad5",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110112/20261031T155637125522Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110113,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 535.6059999999998,
+      "first_pass": {
+        "sim_s": 256327.396,
+        "center_mm": 8.993990309520939,
+        "yaw_deg": 5.8574577387480495,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0059999999939464
+      },
+      "final": {
+        "sim_s": 256861.996,
+        "center_mm": 6.463796163658494,
+        "yaw_deg": 10.652871993314102,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "a731e73b3a561e95c71cfd7f6d4e44635c619d70ab4b2c12299188393ef3cb35",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "4e8856348002542550e0ad2a99fc815ca953a3d310b449671702c0a870896332",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "a25abd252a28bb6f0e140521b99f8e03bc9e2f019dcbcf799b7a88f7e85c687c",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110113/20261031T161856118359Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110114,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 257482.45,
+        "center_mm": 20.925857037803024,
+        "yaw_deg": 21.97466528649671,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "0b973e0b825fa71f5f9a5fa37717ea2d9f71737b9a90cb7315c1889a54286d13",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "35798d20421e97ee8ec14737b818ac05692a4cdfff65cf23b82b3cc3a11d4219",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110114/20261031T164206064412Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110115,
+      "samples": 41,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 257499.909,
+        "center_mm": 35.59315339280716,
+        "yaw_deg": 1.315465313128767,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "b460343843d43014240a738f8806ceedfa5ef313a43dd695370f9db837012686",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 42,
+        "final_image_source": "000041.jpg",
+        "final_image_sha256": "df309f61acfe8e78450905a4bef019e7e0e19165ec2963b5e17985dd79c05f52",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110115/20261031T170410945473Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110116,
+      "samples": 351,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 257545.475,
+        "center_mm": 42.826611282823166,
+        "yaw_deg": 28.229965653362857,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "e8b7f4db70e613be4320125e72e14100e3a13d48fee52ab78f70e8dbeb3e22ca",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 354,
+        "final_image_source": "000353.jpg",
+        "final_image_sha256": "56a75bf255bba07f9881c00b4f8663bee658a09853b3a545f0de4b5abd33b8f4",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110116/20261031T170453509534Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110117,
+      "samples": 5962,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 258152.945,
+        "center_mm": 17.04893802846712,
+        "yaw_deg": 49.31898112728954,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "33493e3bccf55f7c683e7405a141b83cd074310c64c312e7c65460836fd1fada",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 5999,
+        "final_image_source": "005998.jpg",
+        "final_image_sha256": "b45863b9c6e3750ce383af35683c9f145daf21a38f670a99710aad567e5e94af",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110117/20261031T170650407034Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110118,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 259215.57,
+        "center_mm": 6.722879822113025,
+        "yaw_deg": 36.57111817147858,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "acc238b6a1442106a82ed444cf16acbd2a527ac378e973e6c4897ef1a91743c6",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "a2e868d95f6dbeaf4697fab8a4552eb0d4681cf69fb7ef4741138091831cfc74",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110118/20261031T174320767764Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110119,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 259826.437,
+        "center_mm": 21.903853053116038,
+        "yaw_deg": 25.72522683163154,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "59d53cecc535cdbcdefdb37086b4f3ebff08e57dfb983e417231af8496650c57",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "06f6c8a1bbc7334197d5dee6587b4c882d0eae8cde4e815dc8f4a2271f291511",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110119/20261031T180504087538Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110120,
+      "samples": 5966,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 260438.301,
+        "center_mm": 16.09079346295987,
+        "yaw_deg": 32.23281889813079,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "c3156628eaa69286f893d1bb4ae65e15c4ff941c1b97bffc015a48bc01285906",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6001,
+        "final_image_source": "006000.jpg",
+        "final_image_sha256": "9717bad73c6d4fb42d2f2e09aba4f9d396401aa402a3ab8dd365eaeea0b67141",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110120/20261031T182745353361Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110121,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 261049.95,
+        "center_mm": 18.28986370154083,
+        "yaw_deg": 6.379101696885247,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "b2912a9f6d81e75b00dddb91dc6f094e0f5e1a2f01a23c5f43477f4c9d17d9e5",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "009cbebce72f69773c80484db58ec2f7e2967c9bc472cd031c3b70f00e4ff56a",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110121/20261031T184924822347Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110122,
+      "samples": 5536,
+      "strict_v2_success": true,
+      "placement_success": true,
+      "maximum_hold_sim_s": 180.6030000000028,
+      "first_pass": {
+        "sim_s": 261439.76,
+        "center_mm": 6.444686952657056,
+        "yaw_deg": 9.404557667737278,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 261619.358,
+        "center_mm": 0.36216843222465284,
+        "yaw_deg": 0.9320690768099674,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "outline_and_release_hold_v2",
+      "observations_sha256": "0ce7d3c5d5f6f414114651fee32030ced4ad575ce15300c51575935749f4280b",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 5568,
+        "final_image_source": "005567.jpg",
+        "final_image_sha256": "3732d74f9b9671846129cb868d60b37efac96b31e9faad35be12c684465e4a74",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 5568,
+        "video_sha256": "0985432d77e46b721dd68f40b30c41571c7942d8a5cd368bbdebda03ae316b37",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110122/20261031T191044787053Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110123,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 574.012000000017,
+      "first_pass": {
+        "sim_s": 261666.567,
+        "center_mm": 9.092345981803266,
+        "yaw_deg": 14.997132133140134,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 262239.574,
+        "center_mm": 1.755514838990811,
+        "yaw_deg": 3.72461456247691,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "d67e66bbcfba06f0441441491d2f398ebd91b278c68500860c87c6204942db74",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "233852a50baee0ea49940a0fbcf458ec85571ecf40ad021515cb4084c8cdf347",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "ca52c7eb1b14fca255c9bb6dc726911c9b31c0477b7bfc9ee17d46357f1ef095",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110123/20261031T193314108598Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110124,
+      "samples": 43,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 262263.634,
+        "center_mm": 55.73131282863077,
+        "yaw_deg": 2.7626992103120678,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "84b4a93da4308b01f7f4f672da66f6595f18f1ecaafe1eaf5eefe07ff3313558",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 43,
+        "final_image_source": "000042.jpg",
+        "final_image_sha256": "5996f8a01df6114ef53de352d37c1f92c66565bd1b4e4d14d43e0d50e710d996",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110124/20261031T195503054171Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110125,
+      "samples": 55,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 262276.308,
+        "center_mm": 40.267429713989756,
+        "yaw_deg": 19.92721500082833,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "f1bc38fd12ec057ee67dcbee00a5638ef3e8c3bf5fe2c69f0af83c196db60296",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 55,
+        "final_image_source": "000054.jpg",
+        "final_image_sha256": "61bc71e5e3606fde06956d57cf77d9f821e69d2d0f317ca7de1337820daae57c",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110125/20261031T195545180473Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110126,
+      "samples": 3137,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 6.535999999963678,
+      "first_pass": {
+        "sim_s": 262367.454,
+        "center_mm": 7.345462890948107,
+        "yaw_deg": 7.170262020866675,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 262603.044,
+        "center_mm": 21.631564499248793,
+        "yaw_deg": 42.32459046340081,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "e62f7f5a7d053a5dc657cd983cd4be30514be8b902c8e8614cd670f4dd758f83",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 3155,
+        "final_image_source": "003154.jpg",
+        "final_image_sha256": "ecf9b8022cc4c7ac1cea1c2081fa35daae7894b6f4f0e5911903c4e4b32ff767",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 3155,
+        "video_sha256": "9f2a6a584c691bdea8994252d0e8774abea352e0f432fe089fa753c38672919e",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110126/20261031T195631403368Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110127,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 263214.722,
+        "center_mm": 9.493876854930315,
+        "yaw_deg": 47.397027378323436,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "94a9d609ab5ba637f2723dcd9d615c4d5c294a771fbab036723c837bda325aeb",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6001,
+        "final_image_source": "006000.jpg",
+        "final_image_sha256": "4eba904def3d243e07eed3b4404854635b1b444bcea2266a1df5d0a61c0edb13",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110127/20261031T200816295748Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110128,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 263827.351,
+        "center_mm": 23.43366294752124,
+        "yaw_deg": 33.322541535818424,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "854e66a9a8c6cb6f2f69862d9eb74da81ee797625d82395c284810051c6dece7",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "1a22f90542e1dfb3e564d8f50b49774d6d2501c529339efbe782a949c86bdfac",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110128/20261031T203145251859Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110129,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 264440.33,
+        "center_mm": 28.582207434653036,
+        "yaw_deg": 26.985918835451837,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "5f2aefdfe8c8ebc152f76ce0147b64b4f5f55b918c908eaa10e577a07363dd13",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "caf5402e2105d12def6939fdb6540bbed826146952ff19a6260f30f42c02a65f",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110129/20261031T205254260923Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110130,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 514.8910000000033,
+      "first_pass": {
+        "sim_s": 264537.471,
+        "center_mm": 9.70746296509573,
+        "yaw_deg": 12.453742606611797,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0059999999939464
+      },
+      "final": {
+        "sim_s": 265051.356,
+        "center_mm": 3.149197849247582,
+        "yaw_deg": 3.8032120003312437,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "0e9332e43d189fca03f47927141b9256c824d12c825fc17b5a37b8a133c0d15f",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "edac319d0ef776f71ada20b9b4cc208d578c7be626cb39719d4ddd3d6f58a699",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "cda3f14484814e6c877f70a725e57c588a980128d2e57b792f357ef482b68393",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110130/20261031T211408418346Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110131,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 265672.104,
+        "center_mm": 12.56140359350004,
+        "yaw_deg": 36.28624999368296,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "5350800b73e4ccaf25351b763b4794c3ef0e14e73ade7112be215e669e1ca836",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "1fc3b8185ad40eac8b85ee97d5388aa0d6dda9eae2a03fb6c29e4584ac7af1e2",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110131/20261031T213713929369Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110132,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 579.98199999996,
+      "first_pass": {
+        "sim_s": 266273.215,
+        "center_mm": 4.55835312006914,
+        "yaw_deg": 2.525133713104292,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 266852.192,
+        "center_mm": 4.418483241417839,
+        "yaw_deg": 0.8114087819927653,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "2e1addade63db339d36c83ba670f9feaabd1ee1790f753e192c9b397b7cf446f",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "8cf0e5434d637721cd9e5cfc42007fadd43e29bd47aa643dba9fff8d59b20d36",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "ac3b73af3e52ed33d78edeffedd4aea70ec50d7654a1cec640af92f02b0e8c38",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110132/20261031T221321130378Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110133,
+      "samples": 3576,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 93.17900000000373,
+      "first_pass": {
+        "sim_s": 267138.218,
+        "center_mm": 4.334487747876387,
+        "yaw_deg": 18.13565938520449,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 267232.313,
+        "center_mm": 16.907333695832616,
+        "yaw_deg": 57.532720740512325,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": false,
+          "on_board": false,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "4cb2657d9f010642e02787a59f50cce86d8ef7968c974b6ed920841ad6b37915",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 3597,
+        "final_image_source": "003596.jpg",
+        "final_image_sha256": "68268c6093b2e47fb8e1e7920266487b436cdc465168a9d5206b8ab855bd75bf",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 3597,
+        "video_sha256": "cb049dd9f41ec70da802fd3998b5207f6a07ed65c81699e7ae874840f07e1245",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110133/20261031T223643460022Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110134,
+      "samples": 5965,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 548.0469999999623,
+      "first_pass": {
+        "sim_s": 267304.016,
+        "center_mm": 9.1895202339192,
+        "yaw_deg": 12.919533634208719,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0069999999832362
+      },
+      "final": {
+        "sim_s": 267851.056,
+        "center_mm": 1.4099043087664311,
+        "yaw_deg": 3.950421001923316,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "ebb9531d8ac787dc98dd7f6933039694b1e434da3ca193f93ef596df73b7ea52",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "1264ed104de647ba7b05c14da9d251bfbedfce741d6d0fd2330a4fa3850814ef",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "0ebe939fbba7d2f5241a642d08094cc832446989ea8b19441158ed11a91e872c",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110134/20261031T224945786988Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110135,
+      "samples": 424,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 267914.047,
+        "center_mm": 48.4572002404057,
+        "yaw_deg": 1.0251259711724694,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "f23ba43ec94ed6c0ac6bbf79099a32c1589e20c3534c9d7c31d489941140edec",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 426,
+        "final_image_source": "000425.jpg",
+        "final_image_sha256": "50c4925c16d260a962636b147a52d1087ba4cb267b594adab244647e3b70b7d8",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110135/20261031T231129832305Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110136,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 268521.378,
+        "center_mm": 9.030555530308918,
+        "yaw_deg": 42.17818802259987,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "f2719fb2e1f708bc5f30371eb0a24472281a1ac83fe2fc7b2f41d47cf28e1735",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "8d9631d7b0f4373103377d2168f3cd8be8b72e8bbde00501296705c054671c3c",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110136/20261031T231331992665Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110137,
+      "samples": 5966,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 516.1990000000224,
+      "first_pass": {
+        "sim_s": 268619.669,
+        "center_mm": 9.072464630203708,
+        "yaw_deg": 15.872836191442335,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 269134.863,
+        "center_mm": 6.279609826736681,
+        "yaw_deg": 7.652947964296586,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "24beb1a26082cf89b11a7de4abfeaecdfe837dca8841a9508e4f3e9deb148886",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6001,
+        "final_image_source": "006000.jpg",
+        "final_image_sha256": "bb612738234f80036b9a06ac546665b79a06e8c72f11f4922898c46ed3014bc4",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6001,
+        "video_sha256": "6f01d743751dc8384598e8dbe768cba2b045b1fbb55a794d17ed78830a4f425a",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110137/20261031T233609054451Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110138,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 398.954000000027,
+      "first_pass": {
+        "sim_s": 269358.226,
+        "center_mm": 6.736447542440206,
+        "yaw_deg": 19.36291077527544,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0080000000307336
+      },
+      "final": {
+        "sim_s": 269756.172,
+        "center_mm": 6.736447542440206,
+        "yaw_deg": 19.36291077527544,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "29b5adc0098b06cc53aaee35310ab1c597f3ccc8a31f0c1d17269a0c8c059f9e",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "653a74f1a8ce594e0bb32c3cbde31611361f64e3bd46d6c7e6944431489a3d82",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "c1be68eefabbb9f1bb955187a92d17eba6a5095fecff3eb48b19c908eaed4893",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110138/20261031T235726538808Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110139,
+      "samples": 957,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 269872.193,
+        "center_mm": 60.185655625278606,
+        "yaw_deg": 111.3089776171373,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "b64d29f06bb6751984f5c42defb16cfb556514335af88823343e91b8421dbbea",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 963,
+        "final_image_source": "000962.jpg",
+        "final_image_sha256": "e90520658f91da7b10848c7ab188c0a468163f4a18e343ea041b206ab33d2ed8",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110139/20261101T001853081746Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110140,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 270486.506,
+        "center_mm": 11.68667950136069,
+        "yaw_deg": 38.16949651180262,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "a82f100a9f9c60034b0142fa7a6e59e089ce050f49f9788d25f23565d4db483f",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "743ba7cb15e3bef9f9a05e284a02b133b641a7b9d2374a0c87000830798a8793",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110140/20261101T002339319818Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110141,
+      "samples": 399,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 270539.803,
+        "center_mm": 32.88451780518439,
+        "yaw_deg": 22.573908628185062,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "ba2fcdff585e9caaa32b610390e29e2ae5667054ab3962763616e4bae4601bd3",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 402,
+        "final_image_source": "000401.jpg",
+        "final_image_sha256": "46685462ae9d3192d50726bef302a077d2c1ee63bdd6848db2a59f23dbd0850f",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110141/20261101T004455746483Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110142,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 271150.943,
+        "center_mm": 10.485085655389222,
+        "yaw_deg": 23.055668923724603,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "d4411cb3e3a1adc6ed9b9c8de8c5319557c526cd3115eeab642522ce5aa5ea58",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "f20a6a423532bb8192786090ce9edf7606842975a7c41125eed9d1e471bf76ba",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110142/20261101T004658683111Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110143,
+      "samples": 52,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 271170.615,
+        "center_mm": 43.19370759130863,
+        "yaw_deg": 21.7515601274458,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "172499c33cfd2185e072c18c0cc7ef1dbc9b01cfe1d32e930bbbea59e983c946",
+      "recording_quality_pass": false,
+      "short_model_failure": true,
+      "failure_note": "Model stopped before100 frames; original quality_pass=false; counted as failure without retry.",
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 53,
+        "final_image_source": "000052.jpg",
+        "final_image_sha256": "26fa1955c14b71b10855e8b8148f9de479c52028537a1cfee36cb05731026a8d",
+        "deleted": [],
+        "raw_preserved": true,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110143/20261101T010825952504Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110144,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 3.518000000040047,
+      "first_pass": {
+        "sim_s": 271274.68,
+        "center_mm": 9.166000535958231,
+        "yaw_deg": 17.514127701055656,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 271861.387,
+        "center_mm": 8.189744986146371,
+        "yaw_deg": 42.97529773814371,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "323d1b62def172f2f9c72a10946a6a6393c94003707d271d0a74cdcf102e732c",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "b06310bead14c60ad4a0cb5698ac15a853ab4f6a37b82027a2f80900e317c4fb",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "6d723e839b3b510aca4409354a6106bcdddf3bf28abf3397612136a40c46881e",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110144/20261101T011354578279Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110145,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 578.4809999999707,
+      "first_pass": {
+        "sim_s": 271908.454,
+        "center_mm": 5.982907079074978,
+        "yaw_deg": 1.0406172156500637,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0050000000046566
+      },
+      "final": {
+        "sim_s": 272485.93,
+        "center_mm": 4.952458110097365,
+        "yaw_deg": 2.930786810521869,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "1a7b9ec40b1f9753558355f629bd5b79b852e4464daaf9cb2a983a868eff5c0b",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "5a86bede39143c8e8b4ba5ea651a46c02aa4b70653ba8e8dbbc9a54a0ede4b80",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "c378527f5c13ef5984da339510409b9555b7c2075bd60a9c76a8341f33c5b770",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110145/20261101T013717805017Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110146,
+      "samples": 5964,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 273106.688,
+        "center_mm": 9.208536816095348,
+        "yaw_deg": 28.888252641226845,
+        "checks": {
+          "center": true,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "0e1e2fd400c0c7e45abacc74a95a7ec1138aec6bba7e532c656b7ecc3610f958",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "9aa07b3fde5cdc42a335129edfd76e8fae539cd99d5e145cbc09a32639b07263",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110146/20261101T015926087607Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110147,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 273720.398,
+        "center_mm": 19.53599217871516,
+        "yaw_deg": 7.265098566109834,
+        "checks": {
+          "center": false,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "66ddf34a284fa44916a9991738e2e392f771e1178f0fc66c49b3174b46ba3528",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "015b4394618d96e3a1233a77f047af7e2f9361a870e76393c6cfe4206b1ec04b",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110147/20261101T022035793142Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110148,
+      "samples": 249,
+      "strict_v2_success": false,
+      "placement_success": false,
+      "maximum_hold_sim_s": 0.0,
+      "first_pass": null,
+      "final": {
+        "sim_s": 273758.579,
+        "center_mm": 33.305794673728386,
+        "yaw_deg": 44.91751753340759,
+        "checks": {
+          "center": false,
+          "yaw": false,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "Endpoint tracking timeout",
+      "observations_sha256": "42d323a30e99e5ed30b9ef9d877eddacd5061e91f3e8282b481f3a2d03bf3bd1",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": false,
+        "original_frame_count": 250,
+        "final_image_source": "000249.jpg",
+        "final_image_sha256": "d8650eca21d86f1b7d29ed90e9369118248f6e9f2a50673d5e0785eee87bffe3",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ]
+      },
+      "episode": "seed_2026110148/20261101T024338734481Z",
+      "visual_review": "pending; machine scoring only"
+    },
+    {
+      "seed": 2026110149,
+      "samples": 5963,
+      "strict_v2_success": false,
+      "placement_success": true,
+      "maximum_hold_sim_s": 547.5929999999935,
+      "first_pass": {
+        "sim_s": 273822.887,
+        "center_mm": 8.14361344875659,
+        "yaw_deg": 12.941054505633922,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        },
+        "held_sim_s": 1.0059999999939464
+      },
+      "final": {
+        "sim_s": 274369.474,
+        "center_mm": 8.14361344875659,
+        "yaw_deg": 12.941054505633922,
+        "checks": {
+          "center": true,
+          "yaw": true,
+          "tilt": true,
+          "on_board": true,
+          "released": true
+        }
+      },
+      "reason": "time_limit",
+      "observations_sha256": "fc7d1815503b2df93bef8f598a7f553f895c8160a7ac65ea6798f1138e487104",
+      "recording_quality_pass": true,
+      "short_model_failure": false,
+      "retention": {
+        "complete": true,
+        "video_required": true,
+        "original_frame_count": 6000,
+        "final_image_source": "005999.jpg",
+        "final_image_sha256": "2790b1df6f2420870565c94c1d45199c60f2b6337997a5b12f0e6b59365d94c7",
+        "deleted": [
+          "images",
+          "rosbag"
+        ],
+        "raw_preserved": false,
+        "retained": [
+          "final.jpg",
+          "result.json",
+          "observations.jsonl",
+          "frames.jsonl",
+          "policy_actions.jsonl",
+          "sync_audit.json"
+        ],
+        "video": "rollout_1x.mp4",
+        "video_frames": 6000,
+        "video_sha256": "8779ee9e46a0894ae7701d5481cf7803bca9528819a36ddb8f3e7525fb000d12",
+        "video_speed": "1x simulation time, nominal10Hz"
+      },
+      "episode": "seed_2026110149/20261101T024511394267Z",
+      "visual_review": "pending; machine scoring only"
+    }
+  ]
+}
